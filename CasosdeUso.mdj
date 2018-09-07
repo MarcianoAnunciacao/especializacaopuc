@@ -24262,6 +24262,187 @@
 							"templateParameterCompartment": {
 								"$ref": "AAAAAAFltUB7PN9JaE4="
 							}
+						},
+						{
+							"_type": "UMLComponentView",
+							"_id": "AAAAAAFltWAFQN92qWg=",
+							"_parent": {
+								"$ref": "AAAAAAFltPzGTNswpXI="
+							},
+							"model": {
+								"$ref": "AAAAAAFltWAFP990G1Q="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAFltWAFQN93fKQ=",
+									"_parent": {
+										"$ref": "AAAAAAFltWAFQN92qWg="
+									},
+									"model": {
+										"$ref": "AAAAAAFltWAFP990G1Q="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFltWAFQd94CT4=",
+											"_parent": {
+												"$ref": "AAAAAAFltWAFQN93fKQ="
+											},
+											"font": "Arial;20;0",
+											"left": 809,
+											"top": 1037,
+											"width": 340.0390625,
+											"height": 20,
+											"text": "«Spark»"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFltWAFQd95zbI=",
+											"_parent": {
+												"$ref": "AAAAAAFltWAFQN93fKQ="
+											},
+											"font": "Arial;20;1",
+											"left": 809,
+											"top": 1059,
+											"width": 340.0390625,
+											"height": 20,
+											"text": "Módulo de Inteligência de Négocios"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFltWAFQd96fs4=",
+											"_parent": {
+												"$ref": "AAAAAAFltWAFQN93fKQ="
+											},
+											"visible": false,
+											"font": "Arial;20;0",
+											"left": -768,
+											"top": -784,
+											"width": 113.349609375,
+											"height": 20,
+											"text": "(from Model)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFltWAFQd97b5Y=",
+											"_parent": {
+												"$ref": "AAAAAAFltWAFQN93fKQ="
+											},
+											"visible": false,
+											"font": "Arial;20;0",
+											"left": -768,
+											"top": -784,
+											"height": 20,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;20;0",
+									"left": 804,
+									"top": 1032,
+									"width": 350.0390625,
+									"height": 52,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAFltWAFQd94CT4="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAFltWAFQd95zbI="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAFltWAFQd96fs4="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAFltWAFQd97b5Y="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAFltWAFQd98QaM=",
+									"_parent": {
+										"$ref": "AAAAAAFltWAFQN92qWg="
+									},
+									"model": {
+										"$ref": "AAAAAAFltWAFP990G1Q="
+									},
+									"visible": false,
+									"font": "Arial;20;0",
+									"left": -384,
+									"top": -392,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAFltWAFQd99M8g=",
+									"_parent": {
+										"$ref": "AAAAAAFltWAFQN92qWg="
+									},
+									"model": {
+										"$ref": "AAAAAAFltWAFP990G1Q="
+									},
+									"visible": false,
+									"font": "Arial;20;0",
+									"left": -384,
+									"top": -392,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAFltWAFQd9+Oac=",
+									"_parent": {
+										"$ref": "AAAAAAFltWAFQN92qWg="
+									},
+									"model": {
+										"$ref": "AAAAAAFltWAFP990G1Q="
+									},
+									"visible": false,
+									"font": "Arial;20;0",
+									"left": -384,
+									"top": -392,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAFltWAFQd9/B3k=",
+									"_parent": {
+										"$ref": "AAAAAAFltWAFQN92qWg="
+									},
+									"model": {
+										"$ref": "AAAAAAFltWAFP990G1Q="
+									},
+									"visible": false,
+									"font": "Arial;20;0",
+									"left": -384,
+									"top": -392,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;20;0",
+							"containerChangeable": true,
+							"left": 784,
+							"top": 1032,
+							"width": 370.0390625,
+							"height": 52,
+							"nameCompartment": {
+								"$ref": "AAAAAAFltWAFQN93fKQ="
+							},
+							"suppressAttributes": true,
+							"suppressOperations": true,
+							"attributeCompartment": {
+								"$ref": "AAAAAAFltWAFQd98QaM="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAFltWAFQd99M8g="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAFltWAFQd9+Oac="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAFltWAFQd9/B3k="
+							}
 						}
 					]
 				},
@@ -24435,6 +24616,15 @@
 					},
 					"name": "Módulo de Administração",
 					"stereotype": "Rest API"
+				},
+				{
+					"_type": "UMLComponent",
+					"_id": "AAAAAAFltWAFP990G1Q=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Módulo de Inteligência de Négocios",
+					"stereotype": "Spark"
 				}
 			]
 		}
