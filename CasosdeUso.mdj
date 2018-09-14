@@ -21995,7 +21995,7 @@
 											},
 											"font": "Arial;20;0",
 											"left": 273,
-											"top": 1149,
+											"top": 1141,
 											"width": 307,
 											"height": 20,
 											"text": "«REST API»"
@@ -22008,10 +22008,10 @@
 											},
 											"font": "Arial;20;1",
 											"left": 273,
-											"top": 1171,
+											"top": 1163,
 											"width": 307,
 											"height": 20,
-											"text": "PesquisarProduto"
+											"text": "Produto"
 										},
 										{
 											"_type": "LabelView",
@@ -22022,7 +22022,7 @@
 											"visible": false,
 											"font": "Arial;20;0",
 											"left": -928,
-											"top": 1632,
+											"top": 1616,
 											"width": 113.349609375,
 											"height": 20,
 											"text": "(from Model)"
@@ -22036,14 +22036,14 @@
 											"visible": false,
 											"font": "Arial;20;0",
 											"left": -928,
-											"top": 1632,
+											"top": 1616,
 											"height": 20,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;20;0",
 									"left": 268,
-									"top": 1144,
+									"top": 1136,
 									"width": 317,
 									"height": 52,
 									"stereotypeLabel": {
@@ -22071,7 +22071,7 @@
 									"visible": false,
 									"font": "Arial;20;0",
 									"left": -464,
-									"top": 816,
+									"top": 808,
 									"width": 10,
 									"height": 10
 								},
@@ -22087,7 +22087,7 @@
 									"visible": false,
 									"font": "Arial;20;0",
 									"left": -464,
-									"top": 816,
+									"top": 808,
 									"width": 10,
 									"height": 10
 								},
@@ -22103,7 +22103,7 @@
 									"visible": false,
 									"font": "Arial;20;0",
 									"left": -464,
-									"top": 816,
+									"top": 808,
 									"width": 10,
 									"height": 10
 								},
@@ -22119,7 +22119,7 @@
 									"visible": false,
 									"font": "Arial;20;0",
 									"left": -464,
-									"top": 816,
+									"top": 808,
 									"width": 10,
 									"height": 10
 								}
@@ -22127,7 +22127,7 @@
 							"font": "Arial;20;0",
 							"containerChangeable": true,
 							"left": 248,
-							"top": 1144,
+							"top": 1136,
 							"width": 337,
 							"height": 52,
 							"nameCompartment": {
@@ -29175,7 +29175,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "PesquisarProduto",
+					"name": "Produto",
 					"stereotype": "REST API"
 				},
 				{
