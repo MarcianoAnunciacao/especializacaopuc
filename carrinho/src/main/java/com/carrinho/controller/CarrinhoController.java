@@ -1,4 +1,4 @@
-package com.produto.controller;
+package com.carrinho.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -6,8 +6,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class ProdutoController {
-
+public class CarrinhoController {
 
 	@Value("${words}")
 	String words; 
@@ -18,5 +17,5 @@ public class ProdutoController {
 		int i = (int) Math.round(Math.random() * (wordArray.length - 1));
 		return wordArray[i];
 	}
-
+	
 }

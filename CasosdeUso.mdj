@@ -21995,7 +21995,7 @@
 											},
 											"font": "Arial;20;0",
 											"left": 273,
-											"top": 1149,
+											"top": 1141,
 											"width": 307,
 											"height": 20,
 											"text": "«REST API»"
@@ -22008,10 +22008,10 @@
 											},
 											"font": "Arial;20;1",
 											"left": 273,
-											"top": 1171,
+											"top": 1163,
 											"width": 307,
 											"height": 20,
-											"text": "PesquisarProduto"
+											"text": "Produto"
 										},
 										{
 											"_type": "LabelView",
@@ -22022,7 +22022,7 @@
 											"visible": false,
 											"font": "Arial;20;0",
 											"left": -928,
-											"top": 1632,
+											"top": 1616,
 											"width": 113.349609375,
 											"height": 20,
 											"text": "(from Model)"
@@ -22036,14 +22036,14 @@
 											"visible": false,
 											"font": "Arial;20;0",
 											"left": -928,
-											"top": 1632,
+											"top": 1616,
 											"height": 20,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;20;0",
 									"left": 268,
-									"top": 1144,
+									"top": 1136,
 									"width": 317,
 									"height": 52,
 									"stereotypeLabel": {
@@ -22071,7 +22071,7 @@
 									"visible": false,
 									"font": "Arial;20;0",
 									"left": -464,
-									"top": 816,
+									"top": 808,
 									"width": 10,
 									"height": 10
 								},
@@ -22087,7 +22087,7 @@
 									"visible": false,
 									"font": "Arial;20;0",
 									"left": -464,
-									"top": 816,
+									"top": 808,
 									"width": 10,
 									"height": 10
 								},
@@ -22103,7 +22103,7 @@
 									"visible": false,
 									"font": "Arial;20;0",
 									"left": -464,
-									"top": 816,
+									"top": 808,
 									"width": 10,
 									"height": 10
 								},
@@ -22119,7 +22119,7 @@
 									"visible": false,
 									"font": "Arial;20;0",
 									"left": -464,
-									"top": 816,
+									"top": 808,
 									"width": 10,
 									"height": 10
 								}
@@ -22127,7 +22127,7 @@
 							"font": "Arial;20;0",
 							"containerChangeable": true,
 							"left": 248,
-							"top": 1144,
+							"top": 1136,
 							"width": 337,
 							"height": 52,
 							"nameCompartment": {
@@ -22192,7 +22192,7 @@
 											"top": 1235,
 											"width": 308,
 											"height": 20,
-											"text": "Carrinho de Compras"
+											"text": "CarrinhoCompras"
 										},
 										{
 											"_type": "LabelView",
@@ -26589,7 +26589,7 @@
 											"top": 1491,
 											"width": 307,
 											"height": 20,
-											"text": "Gerencial Vendas"
+											"text": "GerencialVendas"
 										},
 										{
 											"_type": "LabelView",
@@ -27861,7 +27861,7 @@
 											"top": 1427,
 											"width": 307,
 											"height": 20,
-											"text": "Módulo de Administração"
+											"text": "Administracao"
 										},
 										{
 											"_type": "LabelView",
@@ -28045,7 +28045,7 @@
 											"top": 1555,
 											"width": 307,
 											"height": 20,
-											"text": "Gerencial Entregas"
+											"text": "GerencialEntregas"
 										},
 										{
 											"_type": "LabelView",
@@ -28229,7 +28229,7 @@
 											"top": 1627,
 											"width": 307,
 											"height": 20,
-											"text": "Gerencial AValiações"
+											"text": "GerencialAvaliacoes"
 										},
 										{
 											"_type": "LabelView",
@@ -28594,7 +28594,7 @@
 											"top": 1771,
 											"width": 315,
 											"height": 20,
-											"text": "PROMOÇÕES"
+											"text": "Promocoes"
 										},
 										{
 											"_type": "LabelView",
@@ -28778,7 +28778,7 @@
 											"top": 1875,
 											"width": 315,
 											"height": 20,
-											"text": "RECLAMAÇÃO"
+											"text": "Reclamacao"
 										},
 										{
 											"_type": "LabelView",
@@ -28959,7 +28959,7 @@
 											"top": 1955,
 											"width": 315,
 											"height": 20,
-											"text": "DÚVIDAS"
+											"text": "Duvidas"
 										},
 										{
 											"_type": "LabelView",
@@ -29175,7 +29175,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "PesquisarProduto",
+					"name": "Produto",
 					"stereotype": "REST API"
 				},
 				{
@@ -29184,7 +29184,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Carrinho de Compras",
+					"name": "CarrinhoCompras",
 					"stereotype": "REST API"
 				},
 				{
@@ -29295,7 +29295,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFlv2WnRPMMTH8="
 							},
-							"name": "Gerencial Vendas",
+							"name": "GerencialVendas",
 							"stereotype": "Spring Batch"
 						},
 						{
@@ -29317,7 +29317,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFlv2WnRPMMTH8="
 							},
-							"name": "Módulo de Administração",
+							"name": "Administracao",
 							"stereotype": "Rest API"
 						},
 						{
@@ -29326,7 +29326,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFlv2WnRPMMTH8="
 							},
-							"name": "Gerencial Entregas",
+							"name": "GerencialEntregas",
 							"stereotype": "Spring Batch"
 						},
 						{
@@ -29344,7 +29344,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFlv2WnRPMMTH8="
 							},
-							"name": "PROMOÇÕES",
+							"name": "Promocoes",
 							"stereotype": "REST API"
 						},
 						{
@@ -29353,7 +29353,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFlv2WnRPMMTH8="
 							},
-							"name": "DÚVIDAS",
+							"name": "Duvidas",
 							"stereotype": "REST API"
 						}
 					]
@@ -33430,7 +33430,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Gerencial AValiações",
+					"name": "GerencialAvaliacoes",
 					"stereotype": "Spring Batch"
 				},
 				{
@@ -33439,7 +33439,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "RECLAMAÇÃO",
+					"name": "Reclamacao",
 					"stereotype": "REST API"
 				}
 			]

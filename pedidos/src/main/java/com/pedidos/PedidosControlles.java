@@ -1,4 +1,4 @@
-package com.produto.controller;
+package com.pedidos;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -6,8 +6,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class ProdutoController {
-
+public class PedidosControlles {
 
 	@Value("${words}")
 	String words; 

@@ -1,4 +1,4 @@
-package com.produto;
+package com.pagamento;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,9 +6,9 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class ProdutoApplication {
+public class PagamentoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ProdutoApplication.class, args);
+		SpringApplication.run(PagamentoApplication.class, args);
 	}
 }
