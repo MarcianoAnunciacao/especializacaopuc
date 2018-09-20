@@ -22192,7 +22192,7 @@
 											"top": 1235,
 											"width": 308,
 											"height": 20,
-											"text": "Carrinho de Compras"
+											"text": "CarrinhoCompras"
 										},
 										{
 											"_type": "LabelView",
@@ -26589,7 +26589,7 @@
 											"top": 1491,
 											"width": 307,
 											"height": 20,
-											"text": "Gerencial Vendas"
+											"text": "GerencialVendas"
 										},
 										{
 											"_type": "LabelView",
@@ -27861,7 +27861,7 @@
 											"top": 1427,
 											"width": 307,
 											"height": 20,
-											"text": "Módulo de Administração"
+											"text": "Administracao"
 										},
 										{
 											"_type": "LabelView",
@@ -28045,7 +28045,7 @@
 											"top": 1555,
 											"width": 307,
 											"height": 20,
-											"text": "Gerencial Entregas"
+											"text": "GerencialEntregas"
 										},
 										{
 											"_type": "LabelView",
@@ -28229,7 +28229,7 @@
 											"top": 1627,
 											"width": 307,
 											"height": 20,
-											"text": "Gerencial AValiações"
+											"text": "GerencialAvaliacoes"
 										},
 										{
 											"_type": "LabelView",
@@ -28594,7 +28594,7 @@
 											"top": 1771,
 											"width": 315,
 											"height": 20,
-											"text": "PROMOÇÕES"
+											"text": "Promocoes"
 										},
 										{
 											"_type": "LabelView",
@@ -28778,7 +28778,7 @@
 											"top": 1875,
 											"width": 315,
 											"height": 20,
-											"text": "RECLAMAÇÃO"
+											"text": "Reclamacao"
 										},
 										{
 											"_type": "LabelView",
@@ -28959,7 +28959,7 @@
 											"top": 1955,
 											"width": 315,
 											"height": 20,
-											"text": "DÚVIDAS"
+											"text": "Duvidas"
 										},
 										{
 											"_type": "LabelView",
@@ -29184,7 +29184,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Carrinho de Compras",
+					"name": "CarrinhoCompras",
 					"stereotype": "REST API"
 				},
 				{
@@ -29295,7 +29295,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFlv2WnRPMMTH8="
 							},
-							"name": "Gerencial Vendas",
+							"name": "GerencialVendas",
 							"stereotype": "Spring Batch"
 						},
 						{
@@ -29317,7 +29317,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFlv2WnRPMMTH8="
 							},
-							"name": "Módulo de Administração",
+							"name": "Administracao",
 							"stereotype": "Rest API"
 						},
 						{
@@ -29326,7 +29326,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFlv2WnRPMMTH8="
 							},
-							"name": "Gerencial Entregas",
+							"name": "GerencialEntregas",
 							"stereotype": "Spring Batch"
 						},
 						{
@@ -29344,7 +29344,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFlv2WnRPMMTH8="
 							},
-							"name": "PROMOÇÕES",
+							"name": "Promocoes",
 							"stereotype": "REST API"
 						},
 						{
@@ -29353,7 +29353,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFlv2WnRPMMTH8="
 							},
-							"name": "DÚVIDAS",
+							"name": "Duvidas",
 							"stereotype": "REST API"
 						}
 					]
@@ -33430,7 +33430,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Gerencial AValiações",
+					"name": "GerencialAvaliacoes",
 					"stereotype": "Spring Batch"
 				},
 				{
@@ -33439,7 +33439,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "RECLAMAÇÃO",
+					"name": "Reclamacao",
 					"stereotype": "REST API"
 				}
 			]
