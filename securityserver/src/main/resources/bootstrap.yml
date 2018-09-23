@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: securityserver
+  cloud:
+    config:
+      uri: http://localhost:8070
