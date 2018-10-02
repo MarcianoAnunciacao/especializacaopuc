@@ -1,13 +1,13 @@
-package br.com.improving.carrinho;
+package com.pagamento.model;
 
 import java.math.BigDecimal;
 
 /**
  * Classe que representa um item no carrinho de compras.
  */
-public class Item {
+public class ItemConverter {
 
-    private Produto produto;
+    private ProdutoConverter produto;
     private BigDecimal valorUnitario;
 
 	private int quantidade;
@@ -19,7 +19,7 @@ public class Item {
      * @param valorUnitario
      * @param quantidade
      */
-    public Item(Produto produto, BigDecimal valorUnitario, int quantidade) {
+    public ItemConverter(ProdutoConverter produto, BigDecimal valorUnitario, int quantidade) {
     	this.produto = produto;
     	this.valorUnitario = valorUnitario;
     	this.quantidade = quantidade;
@@ -30,7 +30,7 @@ public class Item {
      *
      * @return Produto
      */
-    public Produto getProduto() {
+    public ProdutoConverter getProduto() {
     	return produto;
     }
 

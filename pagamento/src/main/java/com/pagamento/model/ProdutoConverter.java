@@ -1,4 +1,4 @@
-package br.com.improving.carrinho;
+package com.pagamento.model;
 
 /**
  * Classe que representa um produto que pode ser adicionado
@@ -7,7 +7,7 @@ package br.com.improving.carrinho;
  * Importante: Dois produtos são considerados iguais quando ambos possuem o
  * mesmo código.
  */
-public class Produto {
+public class ProdutoConverter {
 
     private Long codigo;
     private String descricao;
@@ -18,7 +18,7 @@ public class Produto {
      * @param codigo
      * @param descricao
      */
-    public Produto(Long codigo, String descricao) {
+    public ProdutoConverter(Long codigo, String descricao) {
     	this.codigo = codigo;
     	this.descricao = descricao;
     }
@@ -51,7 +51,7 @@ public class Produto {
 
 	@Override
 	public boolean equals(Object obj) {
-		Produto produto = (Produto) obj;
+		ProdutoConverter produto = (ProdutoConverter) obj;
 		if(produto == null) {
 			return false;
 		}
