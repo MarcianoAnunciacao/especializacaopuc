@@ -1,21 +1,37 @@
 package com.pagamento.controller;
 
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+import com.pagamento.PagamentoService;
+import com.pagamento.model.CarrinhoCompraConverter;
+import com.pagamento.model.Pagamento;
+
+@RestController("finalizar")
 public class PagamentoController {
 
-	@Value("${words}")
-	String words; 
+	@Autowired
+	CarrinhoPagamentoProxy carrinhoProxy;
 	
-	@GetMapping("/")
-	public @ResponseBody String getWord() {
-		String[] wordArray = words.split(",");
-		int i = (int) Math.round(Math.random() * (wordArray.length - 1));
-		return wordArray[i];
+	@Autowired
+	PagamentoService service;
+
+	@PutMapping
+	@ResponseStatus(HttpStatus.OK)
+	public void finalizarPagamento(@RequestBody Pagamento pagamento) {
+
+		CarrinhoCompraConverter carrinho = carrinhoProxy
+				.selecionarCarrinho(pagamento.getPessoa().getIdentificacaoCliente());
+		
+		
+		service.finalizarPagamento(pagamento);
+		
+		carrinhoProxy.deletarCarrinho(carrinho);
+
 	}
-	
+
 }

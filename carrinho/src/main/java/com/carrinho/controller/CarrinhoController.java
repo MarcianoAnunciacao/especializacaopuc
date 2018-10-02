@@ -2,7 +2,6 @@ package com.carrinho.controller;
 
 import java.math.BigDecimal;
 import java.util.Collection;
-import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -69,7 +68,7 @@ public class CarrinhoController {
 	public void excluir(@RequestBody CarrinhoCompra carrinho) {
 		repository.delete(carrinho);
 	}
-	
+
 	@PutMapping("{identificacaoCliente}/adicionarItem")
 	@ResponseStatus(HttpStatus.NO_CONTENT)
 	public void adicionarItemCarrinho(@PathVariable String identificacaoCliente, @RequestBody Item novoItem) {
@@ -77,7 +76,7 @@ public class CarrinhoController {
 		service.adicionarItem(novoItem, identificacaoCliente);
 		
 	}
-	
+
 	@DeleteMapping("{identificacaoCliente}/removerItem")
 	@ResponseStatus(HttpStatus.NO_CONTENT)
 	public void deletarItem(@PathVariable String identificacaoCliente, @RequestBody Item itemARemover) {
