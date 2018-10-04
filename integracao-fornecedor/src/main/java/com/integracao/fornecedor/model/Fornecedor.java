@@ -1,12 +1,14 @@
 package com.integracao.fornecedor.model;
 
+import org.springframework.data.annotation.Id;
+
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
 @JsonIdentityInfo(generator=ObjectIdGenerators.IntSequenceGenerator.class,property="@id", scope = Fornecedor.class)
 public class Fornecedor {
 
-	
+	@Id
 	private Long id;
 	
 	private String razaoSocial;
