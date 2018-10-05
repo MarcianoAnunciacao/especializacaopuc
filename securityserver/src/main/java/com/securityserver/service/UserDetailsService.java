@@ -3,13 +3,14 @@ package com.securityserver.service;
 import java.util.ArrayList;
 import java.util.Collection;
 
+import javax.transaction.Transactional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 import com.securityserver.model.Authority;
 import com.securityserver.model.User;
@@ -18,8 +19,8 @@ import com.securityserver.repository.UserRepository;
 @Service
 @Transactional
 public class UserDetailsService implements org.springframework.security.core.userdetails.UserDetailsService{
-
-UserRepository userRepository;
+	
+	UserRepository userRepository;
 	
 	@Override
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
@@ -42,5 +43,4 @@ UserRepository userRepository;
         
         return grantedAuthorities;
     }
-	
 }
