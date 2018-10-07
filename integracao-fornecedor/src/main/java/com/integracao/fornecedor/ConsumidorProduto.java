@@ -7,19 +7,20 @@ import javax.jms.Message;
 import javax.jms.TextMessage;
 
 import org.apache.commons.lang3.StringUtils;
-import org.springframework.http.HttpEntity;
-import org.springframework.http.HttpMethod;
-import org.springframework.http.ResponseEntity;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.stereotype.Component;
-import org.springframework.web.client.RestTemplate;
 
 import com.integracao.fornecedor.model.Categoria;
 import com.integracao.fornecedor.model.Fornecedor;
 import com.integracao.fornecedor.model.Produto;
+import com.integracao.fornecedor.repository.IntegracaoProdutoRepository;
 
 @Component
 public class ConsumidorProduto {
+	
+	@Autowired
+	IntegracaoProdutoRepository repository;
 
 	@JmsListener(destination = "produto.read")
 	public void receiveMessage(final Message message) throws JMSException {
@@ -59,32 +60,8 @@ public class ConsumidorProduto {
 
 			produto.setFornecedor(fornecedor);
 
-			String fornecedorResourceUrl = "http://localhost:8001/produtos";
-
-			RestTemplate restTemplate = new RestTemplate();
-			HttpEntity<Produto> request = new HttpEntity<>(produto);
+			repository.save(produto);
 			
-			ResponseEntity<Produto> response = restTemplate.exchange(fornecedorResourceUrl, HttpMethod.POST, request,
-					Produto.class);
-
-			
-			/*
-			 * @GetMapping("/someMapping") public String
-			 * someMethod(@RequestHeader("Authorization") String token) {
-			 * 
-			 * } Now you can place the token within the header for the following request:
-			 * 
-			 * HttpHeaders headers = new HttpHeaders(); headers.set("Authorization", token);
-			 * 
-			 * HttpEntity<RestRequest> entityReq = new HttpEntity<RestRequest>(request,
-			 * headers); Now you can pass the HttpEntity to your rest template:
-			 * 
-			 * template.exchange("RestSvcUrl", HttpMethod.POST, entityReq,
-			 * SomeResponse.class);
-			 */
-
-			
-			System.out.println("Resposta do cadastramento de Produto : " + response.getStatusCodeValue());
 		}
 	}
 

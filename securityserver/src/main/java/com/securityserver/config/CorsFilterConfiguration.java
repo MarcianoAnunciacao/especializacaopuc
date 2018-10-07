@@ -23,6 +23,8 @@ public class CorsFilterConfiguration {
         FilterRegistrationBean bean = new FilterRegistrationBean(new CorsFilter(source));
         bean.setOrder(Ordered.HIGHEST_PRECEDENCE);
         return bean;
+        		
+        		
     }
 
 }
