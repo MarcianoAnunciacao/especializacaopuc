@@ -1,14 +1,16 @@
 package com.securityserver.domain;
 
 public enum Authorities {
-	ROLE_USER, ROLE_ADMIN;
 
-	public static String[] names() {
-		String[] names = new String[values().length];
-		for (int index = 0; index < values().length; index++) {
-			names[index] = values()[index].name();
-		}
+    ROLE_USER,
+    ROLE_ADMIN;
 
-		return names;
-	}
+    public static String[] names() {
+    	String[] names = new String[values().length];
+    	for(int index = 0; index < values().length; index++) {
+    		names[index] = values()[index].name();
+    	}
+    	
+    	return names;
+    }
 }

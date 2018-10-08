@@ -1,0 +1,53 @@
+<div class="container">
+    <div class="ui-g">
+
+      <form autocomplete="off" (ngSubmit)="pesquisarProdutos()">
+
+        <div class="ui-g-12">
+          <h1>Produtos</h1>
+        </div>
+
+        <div class="ui-g-12 ui-fluid">
+          <label>Pesquisar</label>
+         </div>
+
+        <div class="ui-g-12">
+          <button pButton type="submit" label="Pesquisar"></button>
+        </div>
+      </form>
+    </div>
+   <br/>
+
+   <div class="ui-g">
+      <div class="ui-g-12">
+        <p-table [value]="produtos" [responsive]="true" #tabela>
+
+          <ng-template pTemplate="header">
+            <tr>
+              <th>Nome</th>
+              <th>Descrição</th>
+              <th>Preço</th>
+              <th></th>
+              <th class="col-acoes-header"></th>
+            </tr>
+          </ng-template>
+
+          <ng-template pTemplate="body" let-produto>
+              <tr>
+                  <td><h3>{{ produto.nome }}</h3></td>
+                  <td><p>{{ produto.descricao }}</p></td>
+                  <td><p>R$ {{ produto.valor | number:'1.2-2' }}</p></td>
+              </tr>
+          </ng-template>
+
+          <ng-template pTemplate="emptymessage">
+            <tr>
+              <td colspan="5">
+                Nenhuma produto encontrada
+              </td>
+            </tr>
+          </ng-template>
+        </p-table>
+      </div>
+    </div>
+  </div>

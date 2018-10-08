@@ -1,0 +1,12 @@
+/home/marciano/Desenvolvimento/workspace/delivery-master/delivery-auth-server/src/main/java/com/coderef/delivery/DeliveryAuthServerApplication.java
+/home/marciano/Desenvolvimento/workspace/delivery-master/delivery-auth-server/src/main/java/com/coderef/delivery/config/CorsFilterConfiguration.java
+/home/marciano/Desenvolvimento/workspace/delivery-master/delivery-auth-server/src/main/java/com/coderef/delivery/model/User.java
+/home/marciano/Desenvolvimento/workspace/delivery-master/delivery-auth-server/src/main/java/com/coderef/delivery/model/Authority.java
+/home/marciano/Desenvolvimento/workspace/delivery-master/delivery-auth-server/src/main/java/com/coderef/delivery/config/AuthorizationServerConfiguration.java
+/home/marciano/Desenvolvimento/workspace/delivery-master/delivery-auth-server/src/main/java/com/coderef/delivery/config/ResourceServerConfiguration.java
+/home/marciano/Desenvolvimento/workspace/delivery-master/delivery-auth-server/src/main/java/com/coderef/delivery/controller/AuthController.java
+/home/marciano/Desenvolvimento/workspace/delivery-master/delivery-auth-server/src/main/java/com/coderef/delivery/repository/UserRepository.java
+/home/marciano/Desenvolvimento/workspace/delivery-master/delivery-auth-server/src/main/java/com/coderef/delivery/repository/AuthorityRepository.java
+/home/marciano/Desenvolvimento/workspace/delivery-master/delivery-auth-server/src/main/java/com/coderef/delivery/domain/Authorities.java
+/home/marciano/Desenvolvimento/workspace/delivery-master/delivery-auth-server/src/main/java/com/coderef/delivery/config/WebSecurityConfig.java
+/home/marciano/Desenvolvimento/workspace/delivery-master/delivery-auth-server/src/main/java/com/coderef/delivery/service/UserDetailsService.java
